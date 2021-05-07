@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E99C2F5E2645BF8600F00FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F5D2645BF8600F00FDB /* AppDelegate.swift */; };
+		E99C2F602645BF8600F00FDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F5F2645BF8600F00FDB /* SceneDelegate.swift */; };
+		E99C2F622645BF8600F00FDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F612645BF8600F00FDB /* ViewController.swift */; };
+		E99C2F652645BF8600F00FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99C2F632645BF8600F00FDB /* Main.storyboard */; };
+		E99C2F672645BF8900F00FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99C2F662645BF8900F00FDB /* Assets.xcassets */; };
+		E99C2F6A2645BF8900F00FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99C2F682645BF8900F00FDB /* LaunchScreen.storyboard */; };
+		E99C2F752645BF8900F00FDB /* lastfm_explorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F742645BF8900F00FDB /* lastfm_explorerTests.swift */; };
+		E99C2F802645BF8900F00FDB /* lastfm_explorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F7F2645BF8900F00FDB /* lastfm_explorerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E99C2F712645BF8900F00FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E99C2F522645BF8600F00FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99C2F592645BF8600F00FDB;
+			remoteInfo = "lastfm-explorer";
+		};
+		E99C2F7C2645BF8900F00FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E99C2F522645BF8600F00FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99C2F592645BF8600F00FDB;
+			remoteInfo = "lastfm-explorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E99C2F5A2645BF8600F00FDB /* lastfm-explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lastfm-explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99C2F5D2645BF8600F00FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E99C2F5F2645BF8600F00FDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E99C2F612645BF8600F00FDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E99C2F642645BF8600F00FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E99C2F662645BF8900F00FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E99C2F692645BF8900F00FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E99C2F6B2645BF8900F00FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99C2F702645BF8900F00FDB /* lastfm-explorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lastfm-explorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99C2F742645BF8900F00FDB /* lastfm_explorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lastfm_explorerTests.swift; sourceTree = "<group>"; };
+		E99C2F762645BF8900F00FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99C2F7B2645BF8900F00FDB /* lastfm-explorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lastfm-explorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99C2F7F2645BF8900F00FDB /* lastfm_explorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lastfm_explorerUITests.swift; sourceTree = "<group>"; };
+		E99C2F812645BF8900F00FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E99C2F572645BF8600F00FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99C2F6D2645BF8900F00FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99C2F782645BF8900F00FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E99C2F512645BF8600F00FDB = {
+			isa = PBXGroup;
+			children = (
+				E99C2F5C2645BF8600F00FDB /* lastfm-explorer */,
+				E99C2F732645BF8900F00FDB /* lastfm-explorerTests */,
+				E99C2F7E2645BF8900F00FDB /* lastfm-explorerUITests */,
+				E99C2F5B2645BF8600F00FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E99C2F5B2645BF8600F00FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E99C2F5A2645BF8600F00FDB /* lastfm-explorer.app */,
+				E99C2F702645BF8900F00FDB /* lastfm-explorerTests.xctest */,
+				E99C2F7B2645BF8900F00FDB /* lastfm-explorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E99C2F5C2645BF8600F00FDB /* lastfm-explorer */ = {
+			isa = PBXGroup;
+			children = (
+				E99C2F5D2645BF8600F00FDB /* AppDelegate.swift */,
+				E99C2F5F2645BF8600F00FDB /* SceneDelegate.swift */,
+				E99C2F612645BF8600F00FDB /* ViewController.swift */,
+				E99C2F632645BF8600F00FDB /* Main.storyboard */,
+				E99C2F662645BF8900F00FDB /* Assets.xcassets */,
+				E99C2F682645BF8900F00FDB /* LaunchScreen.storyboard */,
+				E99C2F6B2645BF8900F00FDB /* Info.plist */,
+			);
+			path = "lastfm-explorer";
+			sourceTree = "<group>";
+		};
+		E99C2F732645BF8900F00FDB /* lastfm-explorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E99C2F742645BF8900F00FDB /* lastfm_explorerTests.swift */,
+				E99C2F762645BF8900F00FDB /* Info.plist */,
+			);
+			path = "lastfm-explorerTests";
+			sourceTree = "<group>";
+		};
+		E99C2F7E2645BF8900F00FDB /* lastfm-explorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E99C2F7F2645BF8900F00FDB /* lastfm_explorerUITests.swift */,
+				E99C2F812645BF8900F00FDB /* Info.plist */,
+			);
+			path = "lastfm-explorerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E99C2F592645BF8600F00FDB /* lastfm-explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99C2F842645BF8900F00FDB /* Build configuration list for PBXNativeTarget "lastfm-explorer" */;
+			buildPhases = (
+				E99C2F562645BF8600F00FDB /* Sources */,
+				E99C2F572645BF8600F00FDB /* Frameworks */,
+				E99C2F582645BF8600F00FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lastfm-explorer";
+			productName = "lastfm-explorer";
+			productReference = E99C2F5A2645BF8600F00FDB /* lastfm-explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E99C2F6F2645BF8900F00FDB /* lastfm-explorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99C2F872645BF8900F00FDB /* Build configuration list for PBXNativeTarget "lastfm-explorerTests" */;
+			buildPhases = (
+				E99C2F6C2645BF8900F00FDB /* Sources */,
+				E99C2F6D2645BF8900F00FDB /* Frameworks */,
+				E99C2F6E2645BF8900F00FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E99C2F722645BF8900F00FDB /* PBXTargetDependency */,
+			);
+			name = "lastfm-explorerTests";
+			productName = "lastfm-explorerTests";
+			productReference = E99C2F702645BF8900F00FDB /* lastfm-explorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E99C2F7A2645BF8900F00FDB /* lastfm-explorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99C2F8A2645BF8900F00FDB /* Build configuration list for PBXNativeTarget "lastfm-explorerUITests" */;
+			buildPhases = (
+				E99C2F772645BF8900F00FDB /* Sources */,
+				E99C2F782645BF8900F00FDB /* Frameworks */,
+				E99C2F792645BF8900F00FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E99C2F7D2645BF8900F00FDB /* PBXTargetDependency */,
+			);
+			name = "lastfm-explorerUITests";
+			productName = "lastfm-explorerUITests";
+			productReference = E99C2F7B2645BF8900F00FDB /* lastfm-explorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E99C2F522645BF8600F00FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E99C2F592645BF8600F00FDB = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E99C2F6F2645BF8900F00FDB = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E99C2F592645BF8600F00FDB;
+					};
+					E99C2F7A2645BF8900F00FDB = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E99C2F592645BF8600F00FDB;
+					};
+				};
+			};
+			buildConfigurationList = E99C2F552645BF8600F00FDB /* Build configuration list for PBXProject "lastfm-explorer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E99C2F512645BF8600F00FDB;
+			productRefGroup = E99C2F5B2645BF8600F00FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E99C2F592645BF8600F00FDB /* lastfm-explorer */,
+				E99C2F6F2645BF8900F00FDB /* lastfm-explorerTests */,
+				E99C2F7A2645BF8900F00FDB /* lastfm-explorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E99C2F582645BF8600F00FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99C2F6A2645BF8900F00FDB /* LaunchScreen.storyboard in Resources */,
+				E99C2F672645BF8900F00FDB /* Assets.xcassets in Resources */,
+				E99C2F652645BF8600F00FDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99C2F6E2645BF8900F00FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99C2F792645BF8900F00FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E99C2F562645BF8600F00FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99C2F622645BF8600F00FDB /* ViewController.swift in Sources */,
+				E99C2F5E2645BF8600F00FDB /* AppDelegate.swift in Sources */,
+				E99C2F602645BF8600F00FDB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99C2F6C2645BF8900F00FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99C2F752645BF8900F00FDB /* lastfm_explorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99C2F772645BF8900F00FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99C2F802645BF8900F00FDB /* lastfm_explorerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E99C2F722645BF8900F00FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E99C2F592645BF8600F00FDB /* lastfm-explorer */;
+			targetProxy = E99C2F712645BF8900F00FDB /* PBXContainerItemProxy */;
+		};
+		E99C2F7D2645BF8900F00FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E99C2F592645BF8600F00FDB /* lastfm-explorer */;
+			targetProxy = E99C2F7C2645BF8900F00FDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E99C2F632645BF8600F00FDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99C2F642645BF8600F00FDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E99C2F682645BF8900F00FDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99C2F692645BF8900F00FDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E99C2F822645BF8900F00FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E99C2F832645BF8900F00FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E99C2F852645BF8900F00FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYPAGBTY55;
+				INFOPLIST_FILE = "lastfm-explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.mgrunte.lastfm-explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E99C2F862645BF8900F00FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYPAGBTY55;
+				INFOPLIST_FILE = "lastfm-explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.mgrunte.lastfm-explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E99C2F882645BF8900F00FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYPAGBTY55;
+				INFOPLIST_FILE = "lastfm-explorerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.mgrunte.lastfm-explorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lastfm-explorer.app/lastfm-explorer";
+			};
+			name = Debug;
+		};
+		E99C2F892645BF8900F00FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYPAGBTY55;
+				INFOPLIST_FILE = "lastfm-explorerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.mgrunte.lastfm-explorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lastfm-explorer.app/lastfm-explorer";
+			};
+			name = Release;
+		};
+		E99C2F8B2645BF8900F00FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYPAGBTY55;
+				INFOPLIST_FILE = "lastfm-explorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.mgrunte.lastfm-explorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lastfm-explorer";
+			};
+			name = Debug;
+		};
+		E99C2F8C2645BF8900F00FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYPAGBTY55;
+				INFOPLIST_FILE = "lastfm-explorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.mgrunte.lastfm-explorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lastfm-explorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E99C2F552645BF8600F00FDB /* Build configuration list for PBXProject "lastfm-explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99C2F822645BF8900F00FDB /* Debug */,
+				E99C2F832645BF8900F00FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99C2F842645BF8900F00FDB /* Build configuration list for PBXNativeTarget "lastfm-explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99C2F852645BF8900F00FDB /* Debug */,
+				E99C2F862645BF8900F00FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99C2F872645BF8900F00FDB /* Build configuration list for PBXNativeTarget "lastfm-explorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99C2F882645BF8900F00FDB /* Debug */,
+				E99C2F892645BF8900F00FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99C2F8A2645BF8900F00FDB /* Build configuration list for PBXNativeTarget "lastfm-explorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99C2F8B2645BF8900F00FDB /* Debug */,
+				E99C2F8C2645BF8900F00FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E99C2F522645BF8600F00FDB /* Project object */;
+}
