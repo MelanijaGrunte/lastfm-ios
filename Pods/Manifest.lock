@@ -1,0 +1,66 @@
+PODS:
+  - Alamofire (5.4.3)
+  - Anchorage (4.5.0)
+  - DropDown (2.3.13)
+  - RxAlamofire (6.1.1):
+    - RxAlamofire/Core (= 6.1.1)
+  - RxAlamofire/Core (6.1.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 6.0)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxGesture (4.0.2):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - RxTest (6.1.0):
+    - RxSwift (= 6.1.0)
+  - SnapshotTesting (1.8.2)
+  - Sourcery (1.4.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Anchorage
+  - DropDown
+  - RxAlamofire
+  - RxGesture
+  - RxTest
+  - SnapshotTesting
+  - Sourcery
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Anchorage
+    - DropDown
+    - RxAlamofire
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - SnapshotTesting
+    - Sourcery
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Anchorage: 1961bc81c84aeed54ad7ffc697c50cd9de748ba6
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxGesture: f059f2aeef966fb17dad56ee440e76410f10e55f
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  RxTest: 9d26616eaff4a7e75f4ecae9b2c24840f2e8218d
+  SnapshotTesting: 38947050d13960d57a4a9c166fcf51bca7d56970
+  Sourcery: db66600e8b285c427701821598d07cf3c7e6c476
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: ca5365fa45f30ba6696ca2037e2536a8efd7a051
+
+COCOAPODS: 1.10.1

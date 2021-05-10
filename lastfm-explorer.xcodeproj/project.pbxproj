@@ -3,18 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C43B89E0908DA54F133895B /* libPods-lastfmExplorerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F18FD3CA71C5CF0A1E2F7601 /* libPods-lastfmExplorerUITests.a */; };
+		7347EBA9105A97C1A73817C1 /* Pods_lastfm_explorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E23B0461D37A405C000C0E7 /* Pods_lastfm_explorer.framework */; };
+		BB6340AA28007D6171637022 /* Pods_lastfm_explorerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4AA71425AF02773F254872 /* Pods_lastfm_explorerTests.framework */; };
+		E91468392648C1EC00339C26 /* AutoMockable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB3D02648B7E2008A5600 /* AutoMockable.generated.swift */; };
 		E99C2F5E2645BF8600F00FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F5D2645BF8600F00FDB /* AppDelegate.swift */; };
 		E99C2F602645BF8600F00FDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F5F2645BF8600F00FDB /* SceneDelegate.swift */; };
-		E99C2F622645BF8600F00FDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F612645BF8600F00FDB /* ViewController.swift */; };
-		E99C2F652645BF8600F00FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99C2F632645BF8600F00FDB /* Main.storyboard */; };
+		E99C2F622645BF8600F00FDB /* AlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F612645BF8600F00FDB /* AlbumListViewController.swift */; };
 		E99C2F672645BF8900F00FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99C2F662645BF8900F00FDB /* Assets.xcassets */; };
-		E99C2F6A2645BF8900F00FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99C2F682645BF8900F00FDB /* LaunchScreen.storyboard */; };
-		E99C2F752645BF8900F00FDB /* lastfm_explorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F742645BF8900F00FDB /* lastfm_explorerTests.swift */; };
-		E99C2F802645BF8900F00FDB /* lastfm_explorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F7F2645BF8900F00FDB /* lastfm_explorerUITests.swift */; };
+		E99C2F8E2645C08800F00FDB /* AlbumDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F8D2645C08800F00FDB /* AlbumDetailsViewController.swift */; };
+		E99C2F902645C09A00F00FDB /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F8F2645C09A00F00FDB /* AlbumListViewModel.swift */; };
+		E99C2F922645C0B200F00FDB /* AlbumDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F912645C0B200F00FDB /* AlbumDetailsViewModel.swift */; };
+		E99C2F942645C4D800F00FDB /* AlbumRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F932645C4D800F00FDB /* AlbumRepository.swift */; };
+		E99C2F9B2645C52400F00FDB /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F9A2645C52400F00FDB /* Api.swift */; };
+		E99C2F9D2645C52E00F00FDB /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C2F9C2645C52E00F00FDB /* Album.swift */; };
+		E9A2458A2647456600B23CD2 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A245892647456600B23CD2 /* Tag.swift */; };
+		E9A2458C2647458600B23CD2 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A2458B2647458600B23CD2 /* Track.swift */; };
+		E9ABF5242645D8B100BA8B3F /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABF5232645D8B100BA8B3F /* AlbumTableViewCell.swift */; };
+		E9ABF5292645EAC800BA8B3F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABF5282645EAC800BA8B3F /* UIView.swift */; };
+		E9ABF52B2646801600BA8B3F /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABF52A2646801600BA8B3F /* Artist.swift */; };
+		E9ABF52D2646803200BA8B3F /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABF52C2646803200BA8B3F /* Period.swift */; };
+		E9ABF52F2646804B00BA8B3F /* AlbumImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABF52E2646804B00BA8B3F /* AlbumImage.swift */; };
+		E9ABF531264682C000BA8B3F /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABF530264682C000BA8B3F /* ViewControllers.swift */; };
+		E9ABF5332646B09700BA8B3F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABF5322646B09700BA8B3F /* Colors.swift */; };
+		E9ABF5352646DBB500BA8B3F /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABF5342646DBB500BA8B3F /* TrackView.swift */; };
+		E9ABF5372646FA2B00BA8B3F /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABF5362646FA2B00BA8B3F /* AlbumView.swift */; };
+		E9ABF5392647047A00BA8B3F /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABF5382647047A00BA8B3F /* ApiError.swift */; };
+		E9ABF53D26470EEE00BA8B3F /* AlbumListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABF53C26470EEE00BA8B3F /* AlbumListViewModelTests.swift */; };
+		E9FCB3B72647EAD8008A5600 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB3B62647EAD8008A5600 /* LoginViewController.swift */; };
+		E9FCB3B92647ED69008A5600 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB3B82647ED69008A5600 /* LoginViewModel.swift */; };
+		E9FCB3BB2647EDB3008A5600 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB3BA2647EDB3008A5600 /* AuthRepository.swift */; };
+		E9FCB3BD26481EE5008A5600 /* AlbumInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB3BC26481EE5008A5600 /* AlbumInfo.swift */; };
+		E9FCB3BF26481EED008A5600 /* TopAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB3BE26481EED008A5600 /* TopAlbum.swift */; };
+		E9FCB3C126481EFB008A5600 /* ExtendedAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB3C026481EFB008A5600 /* ExtendedAlbum.swift */; };
+		E9FCB3C326481F58008A5600 /* AlbumWiki.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB3C226481F58008A5600 /* AlbumWiki.swift */; };
+		E9FCB3C526483304008A5600 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB3C426483304008A5600 /* BaseViewController.swift */; };
+		E9FCB3C7264845DD008A5600 /* PagingMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB3C6264845DD008A5600 /* PagingMeta.swift */; };
+		E9FCB3C926489945008A5600 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB3C826489945008A5600 /* Error.swift */; };
+		E9FCB3CB2648AE1D008A5600 /* AlbumDetailsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB3CA2648AE1D008A5600 /* AlbumDetailsViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +65,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B0FC36D439383A2121F843 /* Pods-lastfm-explorerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lastfm-explorerTests.debug.xcconfig"; path = "Target Support Files/Pods-lastfm-explorerTests/Pods-lastfm-explorerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		092D3A5B8EBF16E23B71BAF3 /* Pods-lastfm-explorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lastfm-explorer.debug.xcconfig"; path = "Target Support Files/Pods-lastfm-explorer/Pods-lastfm-explorer.debug.xcconfig"; sourceTree = "<group>"; };
+		0E23B0461D37A405C000C0E7 /* Pods_lastfm_explorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lastfm_explorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5562E81AC9ACC44394BE44FF /* Pods-lastfmExplorerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lastfmExplorerUITests.debug.xcconfig"; path = "Target Support Files/Pods-lastfmExplorerUITests/Pods-lastfmExplorerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63486DCB102A9CE1F784CF9E /* Pods-lastfm-explorerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lastfm-explorerTests.release.xcconfig"; path = "Target Support Files/Pods-lastfm-explorerTests/Pods-lastfm-explorerTests.release.xcconfig"; sourceTree = "<group>"; };
+		69EE1E3D15D9028E23154CBB /* Pods-lastfm-explorerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lastfm-explorerUITests.debug.xcconfig"; path = "Target Support Files/Pods-lastfm-explorerUITests/Pods-lastfm-explorerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CA03161F6B9B8BBCC024618 /* Pods-lastfmExplorerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lastfmExplorerUITests.release.xcconfig"; path = "Target Support Files/Pods-lastfmExplorerUITests/Pods-lastfmExplorerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E4AA71425AF02773F254872 /* Pods_lastfm_explorerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lastfm_explorerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979060BC7C41B4A867E219AA /* Pods-lastfm-explorerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lastfm-explorerUITests.release.xcconfig"; path = "Target Support Files/Pods-lastfm-explorerUITests/Pods-lastfm-explorerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DDAE12D7191D9EA493206A80 /* Pods-lastfm-explorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lastfm-explorer.release.xcconfig"; path = "Target Support Files/Pods-lastfm-explorer/Pods-lastfm-explorer.release.xcconfig"; sourceTree = "<group>"; };
 		E99C2F5A2645BF8600F00FDB /* lastfm-explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lastfm-explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99C2F5D2645BF8600F00FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E99C2F5F2645BF8600F00FDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E99C2F612645BF8600F00FDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E99C2F642645BF8600F00FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E99C2F612645BF8600F00FDB /* AlbumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewController.swift; sourceTree = "<group>"; };
 		E99C2F662645BF8900F00FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E99C2F692645BF8900F00FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E99C2F6B2645BF8900F00FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E99C2F702645BF8900F00FDB /* lastfm-explorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lastfm-explorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E99C2F742645BF8900F00FDB /* lastfm_explorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lastfm_explorerTests.swift; sourceTree = "<group>"; };
 		E99C2F762645BF8900F00FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E99C2F7B2645BF8900F00FDB /* lastfm-explorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lastfm-explorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E99C2F7F2645BF8900F00FDB /* lastfm_explorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lastfm_explorerUITests.swift; sourceTree = "<group>"; };
+		E99C2F7B2645BF8900F00FDB /* lastfmExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lastfmExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99C2F812645BF8900F00FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99C2F8D2645C08800F00FDB /* AlbumDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewController.swift; sourceTree = "<group>"; };
+		E99C2F8F2645C09A00F00FDB /* AlbumListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
+		E99C2F912645C0B200F00FDB /* AlbumDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewModel.swift; sourceTree = "<group>"; };
+		E99C2F932645C4D800F00FDB /* AlbumRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRepository.swift; sourceTree = "<group>"; };
+		E99C2F9A2645C52400F00FDB /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		E99C2F9C2645C52E00F00FDB /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		E9A245892647456600B23CD2 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		E9A2458B2647458600B23CD2 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		E9ABF5232645D8B100BA8B3F /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		E9ABF5282645EAC800BA8B3F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		E9ABF52A2646801600BA8B3F /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		E9ABF52C2646803200BA8B3F /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		E9ABF52E2646804B00BA8B3F /* AlbumImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImage.swift; sourceTree = "<group>"; };
+		E9ABF530264682C000BA8B3F /* ViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		E9ABF5322646B09700BA8B3F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E9ABF5342646DBB500BA8B3F /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		E9ABF5362646FA2B00BA8B3F /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		E9ABF5382647047A00BA8B3F /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		E9ABF53C26470EEE00BA8B3F /* AlbumListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModelTests.swift; sourceTree = "<group>"; };
+		E9FCB3B62647EAD8008A5600 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E9FCB3B82647ED69008A5600 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E9FCB3BA2647EDB3008A5600 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		E9FCB3BC26481EE5008A5600 /* AlbumInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumInfo.swift; sourceTree = "<group>"; };
+		E9FCB3BE26481EED008A5600 /* TopAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbum.swift; sourceTree = "<group>"; };
+		E9FCB3C026481EFB008A5600 /* ExtendedAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedAlbum.swift; sourceTree = "<group>"; };
+		E9FCB3C226481F58008A5600 /* AlbumWiki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumWiki.swift; sourceTree = "<group>"; };
+		E9FCB3C426483304008A5600 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E9FCB3C6264845DD008A5600 /* PagingMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMeta.swift; sourceTree = "<group>"; };
+		E9FCB3C826489945008A5600 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		E9FCB3CA2648AE1D008A5600 /* AlbumDetailsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewControllerTests.swift; sourceTree = "<group>"; };
+		E9FCB3D02648B7E2008A5600 /* AutoMockable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoMockable.generated.swift; sourceTree = "<group>"; };
+		F18FD3CA71C5CF0A1E2F7601 /* libPods-lastfmExplorerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lastfmExplorerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7347EBA9105A97C1A73817C1 /* Pods_lastfm_explorer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6340AA28007D6171637022 /* Pods_lastfm_explorerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +140,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C43B89E0908DA54F133895B /* libPods-lastfmExplorerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		352AE6AA6119B5FA5BD2B7EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				092D3A5B8EBF16E23B71BAF3 /* Pods-lastfm-explorer.debug.xcconfig */,
+				DDAE12D7191D9EA493206A80 /* Pods-lastfm-explorer.release.xcconfig */,
+				00B0FC36D439383A2121F843 /* Pods-lastfm-explorerTests.debug.xcconfig */,
+				63486DCB102A9CE1F784CF9E /* Pods-lastfm-explorerTests.release.xcconfig */,
+				69EE1E3D15D9028E23154CBB /* Pods-lastfm-explorerUITests.debug.xcconfig */,
+				979060BC7C41B4A867E219AA /* Pods-lastfm-explorerUITests.release.xcconfig */,
+				5562E81AC9ACC44394BE44FF /* Pods-lastfmExplorerUITests.debug.xcconfig */,
+				7CA03161F6B9B8BBCC024618 /* Pods-lastfmExplorerUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2A020F0472D243BA6FE3535 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E23B0461D37A405C000C0E7 /* Pods_lastfm_explorer.framework */,
+				8E4AA71425AF02773F254872 /* Pods_lastfm_explorerTests.framework */,
+				F18FD3CA71C5CF0A1E2F7601 /* libPods-lastfmExplorerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E99C2F512645BF8600F00FDB = {
 			isa = PBXGroup;
 			children = (
-				E99C2F5C2645BF8600F00FDB /* lastfm-explorer */,
-				E99C2F732645BF8900F00FDB /* lastfm-explorerTests */,
-				E99C2F7E2645BF8900F00FDB /* lastfm-explorerUITests */,
+				D2A020F0472D243BA6FE3535 /* Frameworks */,
+				352AE6AA6119B5FA5BD2B7EB /* Pods */,
 				E99C2F5B2645BF8600F00FDB /* Products */,
+				E99C2F5C2645BF8600F00FDB /* lastfm-explorer */,
+				E99C2F7E2645BF8900F00FDB /* lastfmExplorerUITests */,
+				E99C2F732645BF8900F00FDB /* lastfm-explorerTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +189,7 @@
 			children = (
 				E99C2F5A2645BF8600F00FDB /* lastfm-explorer.app */,
 				E99C2F702645BF8900F00FDB /* lastfm-explorerTests.xctest */,
-				E99C2F7B2645BF8900F00FDB /* lastfm-explorerUITests.xctest */,
+				E99C2F7B2645BF8900F00FDB /* lastfmExplorerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +197,18 @@
 		E99C2F5C2645BF8600F00FDB /* lastfm-explorer */ = {
 			isa = PBXGroup;
 			children = (
+				E9FCB3CF2648B7D5008A5600 /* mocks */,
+				E99C2F982645C4FF00F00FDB /* api */,
+				E9ABF5252645E08700BA8B3F /* helpers */,
+				E99C2F952645C4E800F00FDB /* repositories */,
+				E99C2F962645C4F000F00FDB /* viewmodels */,
+				E99C2F972645C4F600F00FDB /* views */,
 				E99C2F5D2645BF8600F00FDB /* AppDelegate.swift */,
-				E99C2F5F2645BF8600F00FDB /* SceneDelegate.swift */,
-				E99C2F612645BF8600F00FDB /* ViewController.swift */,
-				E99C2F632645BF8600F00FDB /* Main.storyboard */,
 				E99C2F662645BF8900F00FDB /* Assets.xcassets */,
-				E99C2F682645BF8900F00FDB /* LaunchScreen.storyboard */,
 				E99C2F6B2645BF8900F00FDB /* Info.plist */,
+				E99C2F5F2645BF8600F00FDB /* SceneDelegate.swift */,
+				E9ABF530264682C000BA8B3F /* ViewControllers.swift */,
+				E9FCB3C426483304008A5600 /* BaseViewController.swift */,
 			);
 			path = "lastfm-explorer";
 			sourceTree = "<group>";
@@ -113,19 +216,97 @@
 		E99C2F732645BF8900F00FDB /* lastfm-explorerTests */ = {
 			isa = PBXGroup;
 			children = (
-				E99C2F742645BF8900F00FDB /* lastfm_explorerTests.swift */,
+				E9ABF53C26470EEE00BA8B3F /* AlbumListViewModelTests.swift */,
 				E99C2F762645BF8900F00FDB /* Info.plist */,
 			);
 			path = "lastfm-explorerTests";
 			sourceTree = "<group>";
 		};
-		E99C2F7E2645BF8900F00FDB /* lastfm-explorerUITests */ = {
+		E99C2F7E2645BF8900F00FDB /* lastfmExplorerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E99C2F7F2645BF8900F00FDB /* lastfm_explorerUITests.swift */,
+				E9FCB3CA2648AE1D008A5600 /* AlbumDetailsViewControllerTests.swift */,
 				E99C2F812645BF8900F00FDB /* Info.plist */,
 			);
-			path = "lastfm-explorerUITests";
+			path = lastfmExplorerUITests;
+			sourceTree = "<group>";
+		};
+		E99C2F952645C4E800F00FDB /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E99C2F932645C4D800F00FDB /* AlbumRepository.swift */,
+				E9FCB3BA2647EDB3008A5600 /* AuthRepository.swift */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		E99C2F962645C4F000F00FDB /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				E99C2F912645C0B200F00FDB /* AlbumDetailsViewModel.swift */,
+				E99C2F8F2645C09A00F00FDB /* AlbumListViewModel.swift */,
+				E9FCB3B82647ED69008A5600 /* LoginViewModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		E99C2F972645C4F600F00FDB /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E99C2F8D2645C08800F00FDB /* AlbumDetailsViewController.swift */,
+				E99C2F612645BF8600F00FDB /* AlbumListViewController.swift */,
+				E9ABF5232645D8B100BA8B3F /* AlbumTableViewCell.swift */,
+				E9ABF5362646FA2B00BA8B3F /* AlbumView.swift */,
+				E9FCB3B62647EAD8008A5600 /* LoginViewController.swift */,
+				E9ABF5342646DBB500BA8B3F /* TrackView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E99C2F982645C4FF00F00FDB /* api */ = {
+			isa = PBXGroup;
+			children = (
+				E99C2F992645C50500F00FDB /* models */,
+				E99C2F9A2645C52400F00FDB /* Api.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		E99C2F992645C50500F00FDB /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E99C2F9C2645C52E00F00FDB /* Album.swift */,
+				E9ABF52E2646804B00BA8B3F /* AlbumImage.swift */,
+				E9FCB3BC26481EE5008A5600 /* AlbumInfo.swift */,
+				E9FCB3C226481F58008A5600 /* AlbumWiki.swift */,
+				E9ABF5382647047A00BA8B3F /* ApiError.swift */,
+				E9ABF52A2646801600BA8B3F /* Artist.swift */,
+				E9FCB3C026481EFB008A5600 /* ExtendedAlbum.swift */,
+				E9ABF52C2646803200BA8B3F /* Period.swift */,
+				E9A245892647456600B23CD2 /* Tag.swift */,
+				E9FCB3BE26481EED008A5600 /* TopAlbum.swift */,
+				E9A2458B2647458600B23CD2 /* Track.swift */,
+				E9FCB3C6264845DD008A5600 /* PagingMeta.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E9ABF5252645E08700BA8B3F /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E9ABF5322646B09700BA8B3F /* Colors.swift */,
+				E9ABF5282645EAC800BA8B3F /* UIView.swift */,
+				E9FCB3C826489945008A5600 /* Error.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		E9FCB3CF2648B7D5008A5600 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCB3D02648B7E2008A5600 /* AutoMockable.generated.swift */,
+			);
+			path = mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +316,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E99C2F842645BF8900F00FDB /* Build configuration list for PBXNativeTarget "lastfm-explorer" */;
 			buildPhases = (
+				AC7076BDC58F6310AA78C08F /* [CP] Check Pods Manifest.lock */,
 				E99C2F562645BF8600F00FDB /* Sources */,
 				E99C2F572645BF8600F00FDB /* Frameworks */,
 				E99C2F582645BF8600F00FDB /* Resources */,
+				063384DDB66F0FD20FCC0217 /* [CP] Embed Pods Frameworks */,
+				E9FCB3CC2648B5CA008A5600 /* Generate Code With Sourcery */,
 			);
 			buildRules = (
 			);
@@ -152,9 +336,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E99C2F872645BF8900F00FDB /* Build configuration list for PBXNativeTarget "lastfm-explorerTests" */;
 			buildPhases = (
+				BA504277B94F124A2BA2626F /* [CP] Check Pods Manifest.lock */,
 				E99C2F6C2645BF8900F00FDB /* Sources */,
 				E99C2F6D2645BF8900F00FDB /* Frameworks */,
 				E99C2F6E2645BF8900F00FDB /* Resources */,
+				E59659AF53C348A999E2048D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,10 +352,11 @@
 			productReference = E99C2F702645BF8900F00FDB /* lastfm-explorerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E99C2F7A2645BF8900F00FDB /* lastfm-explorerUITests */ = {
+		E99C2F7A2645BF8900F00FDB /* lastfmExplorerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E99C2F8A2645BF8900F00FDB /* Build configuration list for PBXNativeTarget "lastfm-explorerUITests" */;
+			buildConfigurationList = E99C2F8A2645BF8900F00FDB /* Build configuration list for PBXNativeTarget "lastfmExplorerUITests" */;
 			buildPhases = (
+				D20B29F869BB03D97DEB93D6 /* [CP] Check Pods Manifest.lock */,
 				E99C2F772645BF8900F00FDB /* Sources */,
 				E99C2F782645BF8900F00FDB /* Frameworks */,
 				E99C2F792645BF8900F00FDB /* Resources */,
@@ -179,9 +366,9 @@
 			dependencies = (
 				E99C2F7D2645BF8900F00FDB /* PBXTargetDependency */,
 			);
-			name = "lastfm-explorerUITests";
+			name = lastfmExplorerUITests;
 			productName = "lastfm-explorerUITests";
-			productReference = E99C2F7B2645BF8900F00FDB /* lastfm-explorerUITests.xctest */;
+			productReference = E99C2F7B2645BF8900F00FDB /* lastfmExplorerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +408,7 @@
 			targets = (
 				E99C2F592645BF8600F00FDB /* lastfm-explorer */,
 				E99C2F6F2645BF8900F00FDB /* lastfm-explorerTests */,
-				E99C2F7A2645BF8900F00FDB /* lastfm-explorerUITests */,
+				E99C2F7A2645BF8900F00FDB /* lastfmExplorerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,9 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E99C2F6A2645BF8900F00FDB /* LaunchScreen.storyboard in Resources */,
 				E99C2F672645BF8900F00FDB /* Assets.xcassets in Resources */,
-				E99C2F652645BF8600F00FDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +438,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		063384DDB66F0FD20FCC0217 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lastfm-explorer/Pods-lastfm-explorer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lastfm-explorer/Pods-lastfm-explorer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lastfm-explorer/Pods-lastfm-explorer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7076BDC58F6310AA78C08F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lastfm-explorer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA504277B94F124A2BA2626F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lastfm-explorerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20B29F869BB03D97DEB93D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lastfmExplorerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E59659AF53C348A999E2048D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lastfm-explorerTests/Pods-lastfm-explorerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lastfm-explorerTests/Pods-lastfm-explorerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lastfm-explorerTests/Pods-lastfm-explorerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FCB3CC2648B5CA008A5600 /* Generate Code With Sourcery */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Code With Sourcery";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# AutoMockable\n$PODS_ROOT/Sourcery/bin/sourcery --sources ./lastfm-explorer/ --templates ./lastfm-explorer/sourceryTemplates/AutoMockable.stencil --output ./lastfm-explorer/mocks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E99C2F562645BF8600F00FDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E99C2F622645BF8600F00FDB /* ViewController.swift in Sources */,
+				E9FCB3B92647ED69008A5600 /* LoginViewModel.swift in Sources */,
+				E99C2F622645BF8600F00FDB /* AlbumListViewController.swift in Sources */,
+				E99C2F922645C0B200F00FDB /* AlbumDetailsViewModel.swift in Sources */,
+				E9ABF531264682C000BA8B3F /* ViewControllers.swift in Sources */,
+				E9FCB3BD26481EE5008A5600 /* AlbumInfo.swift in Sources */,
+				E9FCB3BF26481EED008A5600 /* TopAlbum.swift in Sources */,
+				E9ABF5332646B09700BA8B3F /* Colors.swift in Sources */,
+				E9FCB3C326481F58008A5600 /* AlbumWiki.swift in Sources */,
+				E9ABF5352646DBB500BA8B3F /* TrackView.swift in Sources */,
 				E99C2F5E2645BF8600F00FDB /* AppDelegate.swift in Sources */,
+				E99C2F942645C4D800F00FDB /* AlbumRepository.swift in Sources */,
+				E91468392648C1EC00339C26 /* AutoMockable.generated.swift in Sources */,
+				E9ABF5292645EAC800BA8B3F /* UIView.swift in Sources */,
+				E9FCB3C926489945008A5600 /* Error.swift in Sources */,
+				E9FCB3C7264845DD008A5600 /* PagingMeta.swift in Sources */,
+				E99C2F8E2645C08800F00FDB /* AlbumDetailsViewController.swift in Sources */,
+				E9ABF52D2646803200BA8B3F /* Period.swift in Sources */,
+				E9FCB3B72647EAD8008A5600 /* LoginViewController.swift in Sources */,
+				E9ABF5242645D8B100BA8B3F /* AlbumTableViewCell.swift in Sources */,
+				E99C2F9D2645C52E00F00FDB /* Album.swift in Sources */,
+				E9A2458A2647456600B23CD2 /* Tag.swift in Sources */,
+				E9FCB3C126481EFB008A5600 /* ExtendedAlbum.swift in Sources */,
 				E99C2F602645BF8600F00FDB /* SceneDelegate.swift in Sources */,
+				E9ABF5392647047A00BA8B3F /* ApiError.swift in Sources */,
+				E9FCB3BB2647EDB3008A5600 /* AuthRepository.swift in Sources */,
+				E9ABF52F2646804B00BA8B3F /* AlbumImage.swift in Sources */,
+				E9ABF52B2646801600BA8B3F /* Artist.swift in Sources */,
+				E9ABF5372646FA2B00BA8B3F /* AlbumView.swift in Sources */,
+				E99C2F9B2645C52400F00FDB /* Api.swift in Sources */,
+				E99C2F902645C09A00F00FDB /* AlbumListViewModel.swift in Sources */,
+				E9A2458C2647458600B23CD2 /* Track.swift in Sources */,
+				E9FCB3C526483304008A5600 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +603,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E99C2F752645BF8900F00FDB /* lastfm_explorerTests.swift in Sources */,
+				E9ABF53D26470EEE00BA8B3F /* AlbumListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +611,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E99C2F802645BF8900F00FDB /* lastfm_explorerUITests.swift in Sources */,
+				E9FCB3CB2648AE1D008A5600 /* AlbumDetailsViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +629,6 @@
 			targetProxy = E99C2F7C2645BF8900F00FDB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E99C2F632645BF8600F00FDB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E99C2F642645BF8600F00FDB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E99C2F682645BF8900F00FDB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E99C2F692645BF8900F00FDB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E99C2F822645BF8900F00FDB /* Debug */ = {
@@ -366,7 +682,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +737,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,12 +749,14 @@
 		};
 		E99C2F852645BF8900F00FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092D3A5B8EBF16E23B71BAF3 /* Pods-lastfm-explorer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYPAGBTY55;
 				INFOPLIST_FILE = "lastfm-explorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +770,14 @@
 		};
 		E99C2F862645BF8900F00FDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAE12D7191D9EA493206A80 /* Pods-lastfm-explorer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYPAGBTY55;
 				INFOPLIST_FILE = "lastfm-explorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +791,7 @@
 		};
 		E99C2F882645BF8900F00FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B0FC36D439383A2121F843 /* Pods-lastfm-explorerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +814,7 @@
 		};
 		E99C2F892645BF8900F00FDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63486DCB102A9CE1F784CF9E /* Pods-lastfm-explorerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,17 +837,18 @@
 		};
 		E99C2F8B2645BF8900F00FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5562E81AC9ACC44394BE44FF /* Pods-lastfmExplorerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYPAGBTY55;
-				INFOPLIST_FILE = "lastfm-explorerUITests/Info.plist";
+				INFOPLIST_FILE = lastfmExplorerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "lv.mgrunte.lastfm-explorerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = lv.mgrunte.lastfmExplorerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,17 +858,18 @@
 		};
 		E99C2F8C2645BF8900F00FDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA03161F6B9B8BBCC024618 /* Pods-lastfmExplorerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYPAGBTY55;
-				INFOPLIST_FILE = "lastfm-explorerUITests/Info.plist";
+				INFOPLIST_FILE = lastfmExplorerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "lv.mgrunte.lastfm-explorerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = lv.mgrunte.lastfmExplorerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -583,7 +907,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E99C2F8A2645BF8900F00FDB /* Build configuration list for PBXNativeTarget "lastfm-explorerUITests" */ = {
+		E99C2F8A2645BF8900F00FDB /* Build configuration list for PBXNativeTarget "lastfmExplorerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E99C2F8B2645BF8900F00FDB /* Debug */,

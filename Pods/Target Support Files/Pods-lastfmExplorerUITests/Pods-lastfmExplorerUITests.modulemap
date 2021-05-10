@@ -1,0 +1,6 @@
+module Pods_lastfmExplorerUITests {
+  umbrella header "Pods-lastfmExplorerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
